@@ -5,12 +5,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAqrKoTK5I2aDk420tzaCFSeXHkYV5knt0",
-  authDomain: "mern-ecommerce-project-4e3ff.firebaseapp.com",
-  projectId: "mern-ecommerce-project-4e3ff",
-  storageBucket: "mern-ecommerce-project-4e3ff.appspot.com",
-  messagingSenderId: "1029725476124",
-  appId: "1:1029725476124:web:8f6f4810c91f17fe1816d9"
+  apiKey: import.meta.env.VITE_APIKEY,
+  authDomain: import.meta.env.VITE_AUTHDOMAIN,
+  projectId: import.meta.env.VITE_PROJECTID,
+  storageBucket: import.meta.env.VITE_STORAGEBUCKET,
+  messagingSenderId: import.meta.env.VITE_MESSAGINGSENDERID,
+  appId: import.meta.env.VITE_APPID
 };
 
 // Initialize Firebase
