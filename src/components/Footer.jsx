@@ -1,4 +1,4 @@
-import logo from '../../../assets/logo.png';
+
 import { FaBehance, FaFacebook, FaSlack } from "react-icons/fa6";
 import { BsInstagram } from "react-icons/bs";
 
@@ -8,7 +8,7 @@ const Footer = () => {
          <footer className="footer p-10 bg-base-200 text-base-content">
   <aside className='mr-32'>
   
-        <img className='w-1/4 lg:w-1/5' src={logo} alt="" />
+        <img className='w-1/4 lg:w-1/5' src="" alt="" />
         <p className='-mt-5 lg:-mt-8 text-blue-900 font-bold'>Maple<span className='text-orange-500'>Ridge</span></p>
     
     <p>Maple Ridge Industries Ltd.<br/>Providing reliable since 1998</p>
