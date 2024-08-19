@@ -1,0 +1,354 @@
+[
+    {
+      "name": "Wireless Mouse",
+      "image": "https://i.ibb.co/bX7Wb28/barry-a-O5-CZSXx-T8-NE-unsplash.jpg",
+      "description": "A sleek and ergonomic wireless mouse with a long-lasting battery.",
+      "price": 25.99,
+      "category": "Electronics",
+      "ratings": 4.5,
+      "creationDate": "2024-08-10T14:48:00.000Z"
+    },
+    {
+      "name": "Bluetooth Headphones",
+      "image": "https://i.ibb.co/4NNR9dv/semeon-hrozian-u-NC9-Rgzj-TA-unsplash.jpg",
+      "description": "Comfortable over-ear Bluetooth headphones with high-quality sound.",
+      "price": 79.99,
+      "category": "Electronics",
+      "ratings": 4.7,
+      "creationDate": "2024-08-08T10:22:00.000Z"
+    },
+    {
+      "name": "Coffee Maker",
+      "image": "https://i.ibb.co/zN0GLcJ/milada-vigerova-x7mq-POxu-JNw-unsplash.jpg",
+      "description": "Automatic coffee maker with programmable settings and a sleek design.",
+      "price": 45.99,
+      "category": "Kitchen Appliances",
+      "ratings": 4.3,
+      "creationDate": "2024-08-07T09:18:00.000Z"
+    },
+    {
+      "name": "Yoga Mat",
+      "image": "https://i.ibb.co/NCpTLs5/samantha-sheppard-b8-Q5f-HBsyik-unsplash.jpg",
+      "description": "Non-slip, eco-friendly yoga mat with extra cushioning for comfort.",
+      "price": 19.99,
+      "category": "Fitness",
+      "ratings": 4.6,
+      "creationDate": "2024-08-06T08:00:00.000Z"
+    },
+    {
+      "name": "Gaming Keyboard",
+      "image": "https://i.ibb.co/XLbLDyH/blurrystock-HIb-Amyb-JHVs-unsplash.jpg",
+      "description": "Mechanical gaming keyboard with customizable RGB lighting.",
+      "price": 59.99,
+      "category": "Electronics",
+      "ratings": 4.8,
+      "creationDate": "2024-08-05T15:45:00.000Z"
+    },
+    {
+      "name": "Smartwatch",
+      "image": "https://i.ibb.co/CMysDXH/tyler-hendy-Mp0-Sr-Dp-VE1-Q-unsplash.jpg",
+      "description": "Stylish smartwatch with health tracking and customizable watch faces.",
+      "price": 129.99,
+      "category": "Wearable Technology",
+      "ratings": 4.4,
+      "creationDate": "2024-08-04T12:30:00.000Z"
+    },
+    {
+      "name": "Electric Kettle",
+      "image": "https://i.ibb.co/TvX3Y8m/engin-akyurt-p-VD5-AIp-HNh-U-unsplash.jpg",
+      "description": "Fast-boil electric kettle with auto shut-off and stainless steel design.",
+      "price": 29.99,
+      "category": "Kitchen Appliances",
+      "ratings": 4.5,
+      "creationDate": "2024-08-03T07:15:00.000Z"
+    },
+    {
+      "name": "Backpack",
+      "image": "https://i.ibb.co/mN4pC8j/priscilla-du-preez-z7-FYRY9-HOm-Q-unsplash.jpg",
+      "description": "Durable backpack with multiple compartments for laptops and accessories.",
+      "price": 39.99,
+      "category": "Accessories",
+      "ratings": 4.2,
+      "creationDate": "2024-08-02T11:55:00.000Z"
+    },
+    {
+      "name": "Running Shoes",
+      "image": "https://i.ibb.co/0nSVt8v/joshua-coleman-xo2-Euf3a-PMs-unsplash.jpg",
+      "description": "Lightweight and breathable running shoes with superior grip.",
+      "price": 69.99,
+      "category": "Footwear",
+      "ratings": 4.7,
+      "creationDate": "2024-08-01T14:35:00.000Z"
+    },
+    {
+      "name": "Desk Lamp",
+      "image": "https://i.ibb.co/VHdQpSY/lee-campbell-Dt-Dl-Vpy-vv-Q-unsplash.jpg",
+      "description": "Adjustable desk lamp with LED lighting and touch controls.",
+      "price": 24.99,
+      "category": "Home Decor",
+      "ratings": 4.3,
+      "creationDate": "2024-07-31T16:00:00.000Z"
+    },
+    {
+      "name": "Wireless Charger",
+      "image": "https://i.ibb.co/6msjcfB/matteo-grobberio-i-E-Ms-Y-8v-Ew-unsplash.jpg",
+      "description": "Fast-charging wireless charger compatible with all Qi-enabled devices.",
+      "price": 35.99,
+      "category": "Electronics",
+      "ratings": 4.6,
+      "creationDate": "2024-07-30T09:10:00.000Z"
+    },
+    {
+      "name": "Action Camera",
+      "image": "https://i.ibb.co/chjd9Dw/sanju-pandita-r-VFBa-BGxuf-A-unsplash.jpg",
+      "description": "Waterproof action camera with 4K recording and wide-angle lens.",
+      "price": 99.99,
+      "category": "Cameras",
+      "ratings": 4.5,
+      "creationDate": "2024-07-29T13:00:00.000Z"
+    },
+    {
+      "name": "Portable Speaker",
+      "image": "https://i.ibb.co/LZM4nYH/tariq-mahmud-naim-QTsrvf-THvp-A-unsplash.jpg",
+      "description": "Compact Bluetooth speaker with deep bass and long battery life.",
+      "price": 49.99,
+      "category": "Audio",
+      "ratings": 4.7,
+      "creationDate": "2024-07-28T17:20:00.000Z"
+    },
+    {
+      "name": "Office Chair",
+      "image": "https://i.ibb.co/fFmYWbc/raj-rana-z-CQs-BI7-Zlt-Q-unsplash.jpg",
+      "description": "Ergonomic office chair with adjustable height and lumbar support.",
+      "price": 159.99,
+      "category": "Furniture",
+      "ratings": 4.4,
+      "creationDate": "2024-07-27T18:35:00.000Z"
+    },
+    {
+      "name": "Tablet",
+      "image": "https://i.ibb.co/SvT4DD3/lauren-mancke-qc3s-E5l-GLb-A-unsplash.jpg",
+      "description": "High-performance tablet with a vibrant display and powerful processor.",
+      "price": 299.99,
+      "category": "Electronics",
+      "ratings": 4.5,
+      "creationDate": "2024-07-26T19:45:00.000Z"
+    },
+    {
+      "name": "Sunglasses",
+      "image": "https://i.ibb.co/k5nZxxb/tamara-bellis-LJq-RUWr9-V0w-unsplash.jpg",
+      "description": "Polarized sunglasses with UV protection and stylish design.",
+      "price": 19.99,
+      "category": "Accessories",
+      "ratings": 4.3,
+      "creationDate": "2024-07-25T20:00:00.000Z"
+    },
+    {
+      "name": "Smart Light Bulb",
+      "image": "https://i.ibb.co/Vm0PX60/lucrezia-carnelos-y-Gv-pvg-Rui-I-unsplash.jpg",
+      "description": "Wi-Fi enabled smart light bulb with voice control and color changing.",
+      "price": 14.99,
+      "category": "Home Automation",
+      "ratings": 4.6,
+      "creationDate": "2024-07-24T21:15:00.000Z"
+    },
+    {
+      "name": "Water Bottle",
+      "image": "https://i.ibb.co/nRC30NT/evan-wise-to-Rg-Wa-ZMq-UQ-unsplash.jpg",
+      "description": "Insulated stainless steel water bottle that keeps drinks cold or hot.",
+      "price": 22.99,
+      "category": "Fitness",
+      "ratings": 4.5,
+      "creationDate": "2024-07-23T22:30:00.000Z"
+    },
+    {
+      "name": "Hair Dryer",
+      "image": "https://i.ibb.co/Fq86ZcM/andrea-donato-2-LEqbb-P5-OZI-unsplash.jpg",
+      "description": "Powerful hair dryer with multiple heat settings and ionic technology.",
+      "price": 39.99,
+      "category": "Personal Care",
+      "ratings": 4.4,
+      "creationDate": "2024-07-22T23:00:00.000Z"
+    },
+    {
+      "name": "Digital Camera",
+      "image": "https://i.ibb.co/nksZXN9/oscar-ivan-esquivel-arteaga-AXz-Eirmdk-Xc-unsplash.jpg",
+      "description": "Compact digital camera with 20MP sensor and 4x optical zoom.",
+      "price": 249.99,
+      "category": "Cameras",
+      "ratings": 4.6,
+      "creationDate": "2024-07-21T08:10:00.000Z"
+    },
+    {
+      "name": "Blender",
+      "image": "https://i.ibb.co/tXFyqJC/daniel-norris-ZN-86c-Zr-SN0-unsplash.jpg",
+      "description": "High-speed blender with multiple presets and a durable glass jar.",
+      "price": 79.99,
+      "category": "Kitchen Appliances",
+      "ratings": 4.5,
+      "creationDate": "2024-07-20T09:25:00.000Z"
+    },
+    {
+      "name": "Electric Toothbrush",
+      "image": "https://i.ibb.co/5h6MnH7/sven-brandsma-rz-Jqihfyr-Jg-unsplash.jpg",
+      "description": "Rechargeable electric toothbrush with smart timer and pressure sensor.",
+      "price": 49.99,
+      "category": "Personal Care",
+      "ratings": 4.6,
+      "creationDate": "2024-07-19T10:40:00.000Z"
+    },
+    {
+      "name": "Laptop Stand",
+      "image": "https://i.ibb.co/L55b4Ng/grovemade-Rv-PDe41l-YBA-unsplash.jpg",
+      "description": "Adjustable laptop stand with cooling fans and ergonomic design.",
+      "price": 29.99,
+      "category": "Accessories",
+      "ratings": 4.3,
+      "creationDate": "2024-07-18T11:50:00.000Z"
+    },
+    {
+      "name": "Cordless Drill",
+      "image": "https://i.ibb.co/2jPxDmb/benjamin-lehman-EJU7-A-kr-X0-unsplash.jpg",
+      "description": "Powerful cordless drill with two-speed settings and a rechargeable battery.",
+      "price": 89.99,
+      "category": "Tools",
+      "ratings": 4.5,
+      "creationDate": "2024-07-17T12:05:00.000Z"
+    },
+    {
+      "name": "Gaming Console",
+      "image": "https://i.ibb.co/MSKJRKd/igor-karimov-AGf-KACMHJ8-unsplash.jpg",
+      "description": "Next-gen gaming console with ultra-fast loading times and 4K graphics.",
+      "price": 499.99,
+      "category": "Gaming",
+      "ratings": 4.8,
+      "creationDate": "2024-07-16T13:20:00.000Z"
+    },
+    {
+      "name": "Fitness Tracker",
+      "image": "https://i.ibb.co/tLGzQ5K/fitnish-media-q8-Emkm9ooig-unsplash.jpg",
+      "description": "Water-resistant fitness tracker with heart rate monitoring and sleep tracking.",
+      "price": 59.99,
+      "category": "Wearable Technology",
+      "ratings": 4.4,
+      "creationDate": "2024-07-15T14:30:00.000Z"
+    },
+    {
+      "name": "Air Fryer",
+      "image": "https://i.ibb.co/KxB34ys/Ninja-Foodi-10-Quart-6-in-1-Air-Fryer.webp",
+      "description": "Healthy air fryer with a large capacity and digital touch controls.",
+      "price": 99.99,
+      "category": "Kitchen Appliances",
+      "ratings": 4.6,
+      "creationDate": "2024-07-14T15:45:00.000Z"
+    },
+    {
+      "name": "Electric Scooter",
+      "image": "https://i.ibb.co/Zd8WR26/ather-energy-w6-34-Rmo-La-M-unsplash.jpg",
+      "description": "Foldable electric scooter with a top speed of 15 mph and long battery life.",
+      "price": 299.99,
+      "category": "Transportation",
+      "ratings": 4.7,
+      "creationDate": "2024-07-13T16:50:00.000Z"
+    },
+    {
+      "name": "Security Camera",
+      "image": "https://i.ibb.co/3TSmqzw/alan-j-hendry-KNt4zd8-HPb0-unsplash.jpg",
+      "description": "Smart security camera with night vision and motion detection.",
+      "price": 89.99,
+      "category": "Home Automation",
+      "ratings": 4.5,
+      "creationDate": "2024-07-12T17:55:00.000Z"
+    },
+    {
+      "name": "Smart Thermostat",
+      "image": "https://i.ibb.co/1dbZm8k/james-yarema-nz7z0r-Ndvy-I-unsplash.jpg",
+      "description": "Energy-saving smart thermostat with Wi-Fi connectivity and voice control.",
+      "price": 149.99,
+      "category": "Home Automation",
+      "ratings": 4.6,
+      "creationDate": "2024-07-11T19:10:00.000Z"
+    },
+    {
+      "name": "Wireless Earbuds",
+      "image": "https://i.ibb.co/51fJW3F/vinit-vispute-Ip-Iq-Jwxdiog-unsplash.jpg",
+      "description": "True wireless earbuds with noise cancellation and long battery life.",
+      "price": 129.99,
+      "category": "Audio",
+      "ratings": 4.7,
+      "creationDate": "2024-07-10T20:20:00.000Z"
+    },
+    {
+      "name": "Electric Shaver",
+      "image": "https://i.ibb.co/yVkRtnd/andres-siimon-dt-TIFIPvbiw-unsplash.jpg",
+      "description": "Rechargeable electric shaver with multiple shaving modes and a precision trimmer.",
+      "price": 69.99,
+      "category": "Personal Care",
+      "ratings": 4.4,
+      "creationDate": "2024-07-09T21:30:00.000Z"
+    },
+    {
+      "name": "Smart Door Lock",
+      "image": "https://i.ibb.co/1rsQjTZ/d83c785c4d5100c38ea11b04e92728f2.jpg",
+      "description": "Keyless smart door lock with fingerprint recognition and app control.",
+      "price": 199.99,
+      "category": "Home Automation",
+      "ratings": 4.6,
+      "creationDate": "2024-07-08T22:45:00.000Z"
+    },
+    {
+      "name": "4K TV",
+      "image": "https://i.ibb.co/2WY46fV/thom-milkovic-u-V1we-Wr-Jn-RM-unsplash.jpg",
+      "description": "Ultra HD 4K TV with HDR support and smart TV features.",
+      "price": 599.99,
+      "category": "Electronics",
+      "ratings": 4.8,
+      "creationDate": "2024-07-07T23:50:00.000Z"
+    },
+    {
+      "name": "Robot Vacuum",
+      "image": "https://i.ibb.co/vXhKZ8T/kowon-vn-R3-KYh1a3xf-U-unsplash.jpg",
+      "description": "Automatic robot vacuum cleaner with smart mapping and self-charging.",
+      "price": 249.99,
+      "category": "Home Appliances",
+      "ratings": 4.7,
+      "creationDate": "2024-07-06T00:55:00.000Z"
+    },
+    {
+      "name": "Noise Cancelling Headphones",
+      "image": "https://i.ibb.co/SyxCcyx/pedro-sanz-Al8uux-ZCz-Mo-unsplash.jpg",
+      "description": "Over-ear noise-cancelling headphones with high-fidelity sound.",
+      "price": 199.99,
+      "category": "Audio",
+      "ratings": 4.7,
+      "creationDate": "2024-07-05T01:00:00.000Z"
+    },
+    {
+      "name": "Instant Pot",
+      "image": "https://i.ibb.co/KVTsXZY/becca-tapert-XQuc-ZO9-QTOY-unsplash.jpg",
+      "description": "Multi-functional pressure cooker with pre-programmed settings and easy cleanup.",
+      "price": 119.99,
+      "category": "Kitchen Appliances",
+      "ratings": 4.6,
+      "creationDate": "2024-07-04T02:10:00.000Z"
+    },
+    {
+      "name": "Smart Plug",
+      "image": "https://i.ibb.co/gSrWPHf/call-me-fred-Pmt3fe-Tfc-TQ-unsplash.jpg",
+      "description": "Wi-Fi smart plug with voice control and energy monitoring.",
+      "price": 24.99,
+      "category": "Home Automation",
+      "ratings": 4.5,
+      "creationDate": "2024-07-03T03:20:00.000Z"
+    },
+    {
+      "name": "Wi-Fi Router",
+      "image": "https://i.ibb.co/VJ49MTm/giant-100516.jpg",
+      "description": "Dual-band Wi-Fi router with high-speed connectivity and parental controls.",
+      "price": 99.99,
+      "category": "Electronics",
+      "ratings": 4.6,
+      "creationDate": "2024-07-02T04:30:00.000Z"
+    }
+  ]
+  
