@@ -8,10 +8,10 @@ const Product = () => {
     const [currentPage, setCurrentPage] = useState(1);
     const [totalPages, setTotalPages] = useState(1);
     const [limit] = useState(9); // Set limit to 9 products per page
-    const [search, setSearch] = useState(""); // State to hold the search query
-    const [category, setCategory] = useState(""); // State to hold the selected category
-    const [priceRange, setPriceRange] = useState(""); // State to hold the selected price range
-    const [sort, setSort] = useState('priceAsc'); // Default sort by price ascending
+    const [search, setSearch] = useState(""); 
+    const [category, setCategory] = useState(""); 
+    const [priceRange, setPriceRange] = useState(""); 
+    const [sort, setSort] = useState('priceAsc'); 
 
     useEffect(() => {
         fetchProducts(currentPage, search, category, priceRange, sort);
@@ -19,7 +19,7 @@ const Product = () => {
 
     const fetchProducts = async (page, searchQuery, categoryQuery, priceRangeQuery, sortQuery) => {
         try {
-            const response = await fetch(`http://localhost:5000/products?page=${page}&limit=${limit}&search=${searchQuery}&category=${categoryQuery}&priceRange=${priceRangeQuery}&sort=${sortQuery}`);
+            const response = await fetch(`https://product-list-delta-beryl.vercel.app/products?page=${page}&limit=${limit}&search=${searchQuery}&category=${categoryQuery}&priceRange=${priceRangeQuery}&sort=${sortQuery}`);
             const data = await response.json();
             setProducts(data.products);
             setTotalPages(data.totalPages);
