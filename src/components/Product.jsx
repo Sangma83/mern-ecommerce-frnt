@@ -65,8 +65,8 @@ const Product = () => {
             <Navbar />
 
             {/* Search Field */}
-            <div className="my-14">
-                <label className="input input-bordered flex items-center gap-2">
+            <div className="my-8 mx-4">
+                <label className="input input-bordered flex items-center gap-2 w-full md:w-1/2 lg:w-1/3 mx-auto">
                     <input
                         type="text"
                         className="grow"
@@ -88,9 +88,9 @@ const Product = () => {
             </div>
 
             {/* Filters Section */}
-            <div className="my-14">
+            <div className="my-8 mx-4 flex flex-col lg:flex-row justify-center items-center gap-4">
                 <select
-                    className="select select-primary w-full max-w-60"
+                    className="select select-primary w-full max-w-xs"
                     value={category}
                     onChange={handleCategoryChange} // Update category state on select change
                 >
@@ -112,7 +112,7 @@ const Product = () => {
                     <option>Transportation</option>
                 </select>
                 <select
-                    className="select select-primary w-full max-w-60 ml-4"
+                    className="select select-primary w-full max-w-xs"
                     value={priceRange}
                     onChange={handlePriceRangeChange} // Update price range state on select change
                 >
@@ -123,7 +123,7 @@ const Product = () => {
                     <option value="310-400">310-400</option>
                 </select>
                 <select
-                    className="select select-primary w-full max-w-60 ml-4"
+                    className="select select-primary w-full max-w-xs"
                     value={sort}
                     onChange={handleSortChange}
                 >
@@ -132,7 +132,7 @@ const Product = () => {
                     <option value="priceDesc">High to Low</option>
                 </select>
                 <select
-                    className="select select-primary w-full max-w-60 ml-4"
+                    className="select select-primary w-full max-w-xs"
                     value={sort}
                     onChange={handleSortChange}
                 >
@@ -142,22 +142,22 @@ const Product = () => {
             </div>
 
             {/* Product Cards Section */}
-            <div className="my-20">
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="my-20 mx-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                     {products.map(product => 
-                        <div key={product._id} className="card bg-base-100 w-96 shadow-xl">
+                        <div key={product._id} className="card bg-base-100 shadow-xl w-full">
                             <figure className="px-10 pt-10">
                                 <img
                                     src={product.image}
                                     alt={product.name}
-                                    className="rounded-xl" />
+                                    className="rounded-xl w-full h-auto object-cover" />
                             </figure>
                             <div className="card-body">
                                 <h2 className="card-title text-amber-800 font-bold">{product.name}</h2>
                                 <p>{product.description}</p>
-                                <div className="flex">
+                                <div className="flex justify-between items-center">
                                     <p className="text-amber-800"><span className="text-amber-800 font-bold">Price: </span>${product.price}</p>
-                                    <p className="text-amber-800 ml-4"><span className="text-amber-800 font-bold">Rating: </span>{product.ratings}</p>
+                                    <p className="text-amber-800"><span className="text-amber-800 font-bold">Rating: </span>{product.ratings}</p>
                                 </div>
                                 <p className="text-amber-700 flex items-center gap-2"><BiSolidCategory />{product.category}</p>
                             </div>
