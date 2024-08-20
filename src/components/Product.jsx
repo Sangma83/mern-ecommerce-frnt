@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { BiSolidCategory } from "react-icons/bi";
 
 
 const Product = () => {
@@ -21,16 +22,16 @@ const Product = () => {
       className="rounded-xl" />
   </figure>
   <div className="card-body">
-    <h2 className="card-title">{products.name}</h2>
+    <h2 className="card-title text-amber-800 font-bold">{products.name}</h2>
     <p>{products.description}</p>
     <div className="flex">
-    <p>{products.price}$</p>
-    <p>{products.ratings}</p>
+    <p className="text-amber-800"><span className="text-amber-800 font-bold">Price: </span>${products.price}</p>
+    <p className="text-amber-800"><span className="text-amber-800 font-bold ml-24">Rating: </span>{products.ratings}</p>
     </div>
-    <p>{products.category}</p>
-    <div className="card-actions">
+    <p className="text-amber-700 flex items-center gap-2"><BiSolidCategory />{products.category}</p>
+    {/* <div className="card-actions">
       <button className="btn btn-primary">Buy Now</button>
-    </div>
+    </div> */}
   </div>
 </div>
             )

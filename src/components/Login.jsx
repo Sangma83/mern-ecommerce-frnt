@@ -1,20 +1,22 @@
-// import loginPic from "../../assets/login.jpg";
+import loginPic from "../assets/login.png";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-// import { useContext, useState } from "react";
-// import { AuthContext } from "../../providers/AuthProvider";
-// import { FaEye, FaGithub } from "react-icons/fa6";
-// import { FaEyeSlash } from "react-icons/fa";
-// import { toast, ToastContainer } from "react-toastify";
-// import 'react-toastify/dist/ReactToastify.css';
-// import { Helmet } from "react-helmet-async";
-// import { FcGoogle } from "react-icons/fc";
+import { useContext, useState } from "react";
+import { AuthContext } from "../providers/AuthProvider";
+import { FaEye, FaGithub } from "react-icons/fa6";
+import { FaEyeSlash } from "react-icons/fa";
+import { toast, ToastContainer } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
+import { Helmet } from "react-helmet-async";
+import { FcGoogle } from "react-icons/fc";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 
 const Login = () => {
-    // const { signIn, signInWithGoogle, signInWithGithub } = useContext(AuthContext);
-//     const [loginError, setLoginError] = useState('');
-//    const [success, setSuccess] = useState('');
-//     const [showPassword, setShowPassword] = useState(false);
+    const { signIn, signInWithGoogle, signInWithGithub } = useContext(AuthContext);
+    const [loginError, setLoginError] = useState('');
+   const [success, setSuccess] = useState('');
+    const [showPassword, setShowPassword] = useState(false);
     const location = useLocation();
     const navigate = useNavigate();
     console.log(location);
@@ -77,16 +79,16 @@ const Login = () => {
     return (
         
         <div>
-          {/* <Helmet>
-                <title>Maple Ridge || Login</title>
-            </Helmet> */}
-            {/* <Navbar></Navbar> */}
+          <Helmet>
+                <title>FairLy || Login</title>
+            </Helmet>
+           <Navbar></Navbar>
 
     <div className="hero min-h-screen my-16">
   <div className="hero-content flex-col lg:flex-row-reverse gap-4">
     <div className="text-center lg:text-left">
-      <h1 className="text-4xl font-bold ml-20">Login now!</h1>
-     <img className="w-2/3  mt-4 ml-28 lg:ml-0 " src="" alt="" />
+      <h1 className="text-4xl font-bold ml-44">Login now!</h1>
+     <img className="w-2/3  mt-4 ml-28 lg:ml-10 " src={loginPic} alt="" />
     </div>
     <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100 lg:ml-28">
       <form onSubmit={handleLogin} className="card-body">
@@ -140,6 +142,7 @@ const Login = () => {
     </div>
   </div>
 </div>
+      <Footer></Footer>
 
         </div>
     );
