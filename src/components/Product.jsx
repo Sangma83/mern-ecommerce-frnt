@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import { BiSolidCategory } from "react-icons/bi";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 
 const Product = () => {
@@ -11,6 +13,9 @@ const Product = () => {
         .then(data => setProduct(data))
     }, [])
     return (
+        <div>
+          <Navbar></Navbar>
+        <div className="my-20">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
            {
             product.map(products => 
@@ -36,6 +41,9 @@ const Product = () => {
 </div>
             )
            }
+        </div>
+        </div>
+        <Footer></Footer>
         </div>
     );
 };

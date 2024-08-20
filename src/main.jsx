@@ -11,6 +11,7 @@ import Product from './components/Product';
 import AuthProvider from './providers/AuthProvider';
 import { HelmetProvider } from 'react-helmet-async';
 import Register from './components/Register';
+import PrivateRoute from './routes/PrivateRoute';
 
 const router = createBrowserRouter([
   {
@@ -23,7 +24,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/product",
-    element: <Product></Product>
+    element: <PrivateRoute><Product></Product></PrivateRoute>
   },
   {
     path: "/register",
