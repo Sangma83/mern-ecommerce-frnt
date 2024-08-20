@@ -11,14 +11,15 @@ const Product = () => {
     const [search, setSearch] = useState(""); // State to hold the search query
     const [category, setCategory] = useState(""); // State to hold the selected category
     const [priceRange, setPriceRange] = useState(""); // State to hold the selected price range
+    const [sort, setSort] = useState('priceAsc'); // Default sort by price ascending
 
     useEffect(() => {
-        fetchProducts(currentPage, search, category, priceRange);
-    }, [currentPage, search, category, priceRange]);
+        fetchProducts(currentPage, search, category, priceRange, sort);
+    }, [currentPage, search, category, priceRange, sort]);
 
-    const fetchProducts = async (page, searchQuery, categoryQuery, priceRangeQuery) => {
+    const fetchProducts = async (page, searchQuery, categoryQuery, priceRangeQuery, sortQuery) => {
         try {
-            const response = await fetch(`http://localhost:5000/products?page=${page}&limit=${limit}&search=${searchQuery}&category=${categoryQuery}&priceRange=${priceRangeQuery}`);
+            const response = await fetch(`http://localhost:5000/products?page=${page}&limit=${limit}&search=${searchQuery}&category=${categoryQuery}&priceRange=${priceRangeQuery}&sort=${sortQuery}`);
             const data = await response.json();
             setProducts(data.products);
             setTotalPages(data.totalPages);
@@ -52,6 +53,11 @@ const Product = () => {
     const handlePriceRangeChange = (event) => {
         setPriceRange(event.target.value);
         setCurrentPage(1); // Reset to first page on price range change
+    };
+
+    const handleSortChange = (event) => {
+        setSort(event.target.value);
+        setCurrentPage(1); // Reset to first page on sorting change
     };
 
     return (
@@ -110,16 +116,28 @@ const Product = () => {
                     value={priceRange}
                     onChange={handlePriceRangeChange} // Update price range state on select change
                 >
-                    <option value="">All Prices</option>
+                    <option value="">Price Range</option>
                     <option value="50-100">50-100</option>
                     <option value="110-200">110-200</option>
                     <option value="210-300">210-300</option>
                     <option value="310-400">310-400</option>
                 </select>
-                <select className="select select-primary w-full max-w-60 ml-4">
-                    <option disabled selected>Sort by</option>
-                    <option>Low to High</option>
-                    <option>High to Low</option>
+                <select
+                    className="select select-primary w-full max-w-60 ml-4"
+                    value={sort}
+                    onChange={handleSortChange}
+                >
+                    <option value="">Price</option>
+                    <option value="priceAsc">Low to High</option>
+                    <option value="priceDesc">High to Low</option>
+                </select>
+                <select
+                    className="select select-primary w-full max-w-60 ml-4"
+                    value={sort}
+                    onChange={handleSortChange}
+                >
+                    <option value="">Date</option>
+                    <option value="dateAdded">Newest First</option>
                 </select>
             </div>
 
@@ -171,4 +189,3 @@ const Product = () => {
 };
 
 export default Product;
-
