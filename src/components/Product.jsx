@@ -35,39 +35,45 @@ const Product = () => {
 
 <div className="my-14">
 <select className="select select-primary w-full max-w-60">
-  <option disabled selected>All</option>
-  <option>Game of Thrones</option>
-  <option>Lost</option>
-  <option>Breaking Bad</option>
-  <option>Walking Dead</option>
+  <option disabled selected></option>
+  <option>All</option>
 </select>
 <select className="select select-primary w-full max-w-60 ml-4">
   <option disabled selected>Sort by</option>
-  <option>Game of Thrones</option>
-  <option>Lost</option>
-  <option>Breaking Bad</option>
-  <option>Walking Dead</option>
+  <option>Low to High</option>
+  <option>High to Low</option>
 </select>
 <select className="select select-primary w-full max-w-60 ml-4">
   <option disabled selected>Category</option>
-  <option>Game of Thrones</option>
-  <option>Lost</option>
-  <option>Breaking Bad</option>
-  <option>Walking Dead</option>
+  <option>Electronics</option>
+  <option>Kitchen Appliances</option>
+  <option>Fitness</option>
+  <option>Wearable Technology</option>
+  <option>Accessories</option>
+  <option>Footwear</option>
+  <option>Home Decor</option>
+  <option>Cameras</option>
+  <option>Audio</option>
+  <option>Furniture</option>
+  <option>Home Automation</option>
+  <option>Personal Care</option>
+  <option>Tools</option>
+  <option>Gaming</option>
+  <option>Transportation</option>
 </select>
 <select className="select select-primary w-full max-w-60 ml-4">
   <option disabled selected>Price</option>
-  <option>Game of Thrones</option>
-  <option>Lost</option>
-  <option>Breaking Bad</option>
-  <option>Walking Dead</option>
+  <option>1000-2000</option>
+  <option>2100-4000</option>
+  <option>4100-6000</option>
+  <option>6100-8000</option>
 </select>
 <select className="select select-primary w-full max-w-60 ml-4">
   <option disabled selected>Latest</option>
-  <option>Game of Thrones</option>
+  {/* <option>Game of Thrones</option>
   <option>Lost</option>
   <option>Breaking Bad</option>
-  <option>Walking Dead</option>
+  <option>Walking Dead</option> */}
 </select>
 </div>
 
